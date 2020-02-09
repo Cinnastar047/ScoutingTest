@@ -6,6 +6,7 @@ h1 {
   font-family: sans-serif;
   font-size: 5em;
   position: fixed;
+  display: flex;
   margin: auto;
   color: #ff82f9;
 }
