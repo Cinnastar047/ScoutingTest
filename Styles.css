@@ -1,9 +1,9 @@
 body {
-  background-color: #333;
+  background-color: #022273;
 }
 
-h1 {
-  font-family: sans-serif;
+.centered {
+  font-family: "Candara", sans-serif;
   font-size: 5em;
   position: fixed;
   top: 50%;
