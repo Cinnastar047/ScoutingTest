@@ -22,11 +22,13 @@ function changeCounter(button_id, button_class) {
 			else if (lowgoalAuto.innerHTML > 0) lowgoalAuto.innerHTML--;
 		break;
 		case "red auto":
+			alert("you clicked a red button!!!");
 			var outgoalAuto = document.getElementById("outgoalAuto");
 			if (buttonType=="right-button") outgoalAuto.innerHTML++;
 			else if (outgoalAuto.innerHTML > 0) outgoalAuto.innerHTML--;
 		break;
 		case "blue auto":
+			alert("you clicked a blue button!!!");
 			var ingoalAuto = document.getElementById("ingoalAuto");
 			if (buttonType=="right-button") ingoalAuto.innerHTML++;
 			else if (ingoalAuto.innerHTML > 0) ingoalAuto.innerHTML--;
