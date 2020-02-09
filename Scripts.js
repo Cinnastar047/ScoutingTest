@@ -21,6 +21,16 @@ function changeCounter(button_id, button_class) {
 			if (buttonType=="right-button") lowgoalAuto.innerHTML++;
 			else if (lowgoalAuto.innerHTML > 0) lowgoalAuto.innerHTML--;
 		break;
+		case "red auto":
+			var outgoalAuto = document.getElementById("outgoalAuto");
+			if (buttonType=="right-button") outgoalAuto.innerHTML++;
+			else if (outgoalAuto.innerHTML > 0) outgoalAuto.innerHTML--;
+		break;
+		case "blue auto":
+			var ingoalAuto = document.getElementById("ingoalAuto");
+			if (buttonType=="right-button") ingoalAuto.innerHTML++;
+			else if (ingoalAuto.innerHTML > 0) ingoalAuto.innerHTML--;
+		break;
 		case "gray1":
 			var fouls = document.getElementById("fouls");
 			if (buttonType=="top-button") fouls.innerHTML++;
