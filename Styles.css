@@ -1,9 +1,9 @@
 body {
   background-color: #031b59;
+  font-family: "Candara", sans-serif;
 }
 
 .centered {
-  font-family: sans-serif;
   position: fixed;
   top: 45%;
   left: 50%;
