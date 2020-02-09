@@ -12,11 +12,25 @@ body {
 }
 
 h1 {
-  font-size: 5em;
-  margin: 0 auto;
+  font-size: 3em;
+  margin: 0.1em auto;
 }
 
 input[type=text] {
+  padding: 0.75em;
+  border-radius: 1.5em;
+  border: none;
+}
+
+button {
+  color: white;
+  background-color: #afbde0;
   padding: 0.5em;
-  border-radius: 1em;
+  margin-left: 1em;
+  border-radius: 50%;
+  border: none;
+}
+
+button:active {
+  background-color: #7a8fc4;
 }
