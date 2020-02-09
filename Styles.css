@@ -12,19 +12,19 @@ body {
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 3em;
   margin: 0.1em auto;
 }
 
 input[type=text] {
-  font-size: xx-large;
+  font-size: medium;
   padding: 0.75em;
   border-radius: 1.5em;
   border: none;
 }
 
 button {
-  font-size: xx-large;
+  font-size: medium;
   color: white;
   background-color: #afbde0;
   padding: 0.5em;
