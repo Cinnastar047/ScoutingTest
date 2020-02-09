@@ -25,6 +25,7 @@ input[type=text] {
 
 button {
   font-size: medium;
+  font-weight: bolder;
   color: white;
   background-color: #afbde0;
   padding: 0.5em;
