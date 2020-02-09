@@ -1,13 +1,17 @@
 body {
-  background-color: #022273;
+  background-color: #031b59;
 }
 
 .centered {
-  font-family: "Candara", sans-serif;
-  font-size: 5em;
+  font-family: sans-serif;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #eee;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0 auto;
 }
