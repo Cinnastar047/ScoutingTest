@@ -123,25 +123,29 @@ font-size: 1em;
 background-color: #444;
 }
 .button-label-vertical {
-position: relative;
-top: -6.5em;
+	position: relative;
+	top: -6.5em;
+	pointer-events: none;
 }
 .counter-vertical {
-font-size: 1em;
-display: inline;
-position: relative;
-top: -2.5em;
-z-index: 2;
+	font-size: 1em;
+	display: inline;
+	position: relative;
+	top: -2.5em;
+	z-index: 2;
+	pointer-events: none;
 }
 .button-label-horizontal {
-position: relative;
-top: -4.45em;
+	position: relative;
+	top: -4.45em;
+	pointer-events: none;
 } 
 .counter-horizontal {
-font-size: 1em;
-position: relative;
-top: -2.65em;
-z-index: 2;
+	font-size: 1em;
+	position: relative;
+	top: -2.65em;
+	z-index: 2;
+	pointer-events: none;
 }
 
 .wrapper-center {
