@@ -1,8 +1,9 @@
 body {
-background-color: #333333;
-font-family: "Candara", sans-serif;
-color: white;
-overflow: hidden;
+  display: fullscreen;
+  background-color: #333333;
+  font-family: "Candara", sans-serif;
+  color: white;
+  overflow: hidden;
 }
 h1 {
 font-size: 2em;
