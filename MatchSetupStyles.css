@@ -1,7 +1,7 @@
 .dotB1 { /*field dots for station assignment*/
   position: relative;
-  top: 14%;
-  left: 20%;
+  /*top: 14%;
+  left: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
@@ -10,8 +10,8 @@
 }
 .dotB2 {
   position: relative;
-  top: 8.5%;
-  left: 20%;
+  /*top: 8.5%;
+  left: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
@@ -20,8 +20,8 @@
 }
 .dotB3 {
   position: relative;
-  top: 3%;
-  left: 20%;
+  /*top: 3%;
+  left: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
@@ -30,8 +30,8 @@
 }
 .dotR1 {
   position: relative;
-  top: 3%;
-  right: 20%;
+  /*top: 3%;
+  right: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
@@ -40,8 +40,8 @@
 }
 .dotR2 {
   position: relative;
-  top: 8.5%;
-  right: 20%;
+  /*top: 8.5%;
+  right: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
@@ -50,8 +50,8 @@
 }
 .dotR3 {
   position: relative;
-  top: 14%;
-  right: 20%;
+  /*top: 14%;
+  right: 20%;*/
   height: 1em;
   width: 1em;
   background-color: #bbb;
