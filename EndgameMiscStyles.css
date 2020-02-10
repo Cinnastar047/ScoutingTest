@@ -1,0 +1,30 @@
+textarea { /*this is the notes input*/
+width: 96%;
+font-family: "Candara", sans-serif;
+position: relative;
+left: 2%;
+padding: 0.25em;
+}
+
+#endgame { /*this is for the endgame status input*/
+background-color: #573D76;
+color: white;
+width: 30%;
+height: 3.5em;
+border-radius: 0.75em;
+font-family: "Candara", sans-serif;
+font-size: 1em;
+text-align-last:center;
+}
+
+#cards { /*this is for the yellow/red card input*/
+background-color: #c0c0c0;
+color: white;
+width: 30%;
+height: 3.5em;
+border-radius: 0.75em;
+font-family: "Candara", sans-serif;
+font-size: 1em;
+text-align: center;
+margin-top: 0.5em;
+}
