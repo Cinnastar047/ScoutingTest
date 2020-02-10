@@ -1,3 +1,9 @@
+img {
+  margin: 0 auto;
+  position: absolute; 
+  height: 20%;
+}
+
 .dotB1 { /*field dots for station assignment*/
   position: relative;
   /*top: 14%;
