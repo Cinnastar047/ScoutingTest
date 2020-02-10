@@ -80,7 +80,7 @@ background-color: #444;
 }
 .button-label-vertical {
 	position: relative;
-	top: -6.5em;
+	top: -6.25em;
 	pointer-events: none;
 }
 .counter-vertical {
@@ -114,9 +114,9 @@ float: left;
 }
 #auto-goals {
 position: relative;
-top: 30%;
+/*top: 30%;*/
 }
 #penalties {
 position: relative;
-top: 60%;
+/*top: 60%;*/
 }
