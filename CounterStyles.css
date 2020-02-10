@@ -84,7 +84,7 @@ background-color: #444;
 	pointer-events: none;
 }
 .counter-vertical {
-	font-size: 1em;
+	font-size: 3em;
 	display: inline;
 	position: relative;
 	top: -2.5em;
@@ -97,7 +97,7 @@ background-color: #444;
 	pointer-events: none;
 } 
 .counter-horizontal {
-	font-size: 1em;
+	font-size: 3em;
 	position: relative;
 	top: -2.65em;
 	z-index: 2;
