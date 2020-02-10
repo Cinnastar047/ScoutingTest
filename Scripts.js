@@ -10,8 +10,8 @@ function setup() {
 }
 
 function changeCounter(button_id, button_class) {
-	//alert(button_id);
-	//alert(button_class);
+	alert(button_id);
+	alert(button_class);
 	var buttonType = button_id;
 	var buttonColor = button_class;
 	//button classes are yellow/red/blue auto/teleop, gray1, and gray2
