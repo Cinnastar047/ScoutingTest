@@ -1,0 +1,54 @@
+body {
+  display: fullscreen;
+  background-color: #333333;
+  font-family: "Candara", sans-serif;
+  color: white;
+  overflow: hidden;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.15em 0.25em 0 0;
+	font-family: "Candara", sans-serif;
+}
+p {
+	font-size: 1em;
+	font-family: "Candara", sans-serif;
+}
+.wrapper-center {
+text-align: center;
+}
+input, select, button {
+	display: block;
+	margin: 0.5em;
+	font-family: "Candara", sans-serif;
+}
+input[type=checkbox] {
+	display: inline;
+}
+label {
+	font-family: "Candara", sans-serif;
+}
+.preset {
+	pointer-events: none;
+}
+.enable {
+	pointer-events: default;
+}
+#Card {
+	display: none;
+}
+#scouterPosition {
+	font-size: 1em;
+	height: 1.75em;
+	font-family: "Candara", sans-serif;
+	background-color: #B00; /*AHH*/
+	color: white;
+	position: relative;
+	display: inline;
+	border-radius: 0.5em;
+	text-align-last: center;
+}
+
+#Scouter {
+	display: none;
+}

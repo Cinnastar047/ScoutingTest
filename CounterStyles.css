@@ -1,0 +1,188 @@
+.button-group-vertical {
+width: 30%;
+/*float: left;*/
+display: inline;
+margin: 0 1%;
+}
+.button-group-vertical button {
+width: 100%;
+color: white;
+border-color: #333;
+margin: 0;
+}
+.button-group-horizontal {
+width: 30%;
+margin: 0.5em;
+display: inline;
+}
+.button-group-horizontal:not(:first-child) {
+	position: relative;
+	/*left: -10%;*/
+}
+.button-group-horizontal:last-child {
+	left: -0%;
+}
+.button-group-horizontal button {
+width: 15%;
+color: white;
+border-color: #333;
+display: inline;
+/*float: left;*/
+margin: 0;
+}
+
+.left-button {
+font-size: 2em;
+font-weight: bold;
+border-radius: 0.75em 0 0 0.75em;
+padding: 1em 1.5em 1em 0.25em;
+border-right: none;
+}
+.right-button {
+font-size: 2em;
+font-weight: bold;
+border-radius: 0 0.75em 0.75em 0;
+padding: 1em 0.25em 1em 1.5em;
+border-left: none;
+}
+.up-button {
+border-radius: 0.75em 0.75em 0 0;
+font-size: 2em;
+font-weight: bold;
+padding: 0.01em 0.2em 0.6em 0.1em;
+border-bottom: none;
+}
+.down-button {
+border-radius: 0 0 0.75em 0.75em;
+font-size: 2em;
+font-weight: bold;
+padding: 0.6em 0.2em 0.01em 0.1em;
+margin-right: 1em;
+border-top: none;
+}
+
+.lowGoal {
+background-color: #e6bf00;
+font-size: 1em;
+}
+.lowGoal:active {
+background-color: #b38c00;
+}
+.outGoal {
+background-color: #CC0000;
+font-size: 1em;
+}
+.outGoal:active {
+background-color: #990000;
+}
+.inGoal {
+background-color: #0000CC;
+font-size: 1em;
+}
+.inGoal:active {
+background-color: #000099;
+}
+.gray1 {
+background-color: #A0A0A0;
+font-size: 1em;
+}
+.gray1:active {
+background-color: #777;
+}
+.gray2 {
+background-color: #777;
+font-size: 1em;
+}
+.gray2:active {
+background-color: #444;
+}
+.button-label-vertical {
+	position: relative;
+	top: -6.25em;
+	pointer-events: none;
+}
+/*.counter-vertical {
+	font-size: 2.5em;
+	display: inline;
+	position: relative;
+	top: -2.5em;
+	z-index: 2;
+	pointer-events: none;
+}*/
+.button-label-horizontal {
+	position: relative;
+	top: -4.45em;
+	pointer-events: none;
+} 
+/*.counter-horizontal {
+	font-size: 2.5em;
+	position: relative;
+	top: -2.65em;
+	z-index: 2;
+	pointer-events: none;
+}*/
+
+/*Scrap the idea of just making the inputs pretty, hide them and put the p elements back*/
+.counter {
+	display: none;
+}
+.counterLabel {
+	/*position: relative;
+	top: 1.25em;
+	left: -4.1em;*/
+}
+.counterDisplay {
+	display: inline-block;
+	font-size: 3em;
+	position: relative;
+	transform: translateX(50%);
+}
+.leftCounter {
+	pointer-events: none;
+	display: inline-block;
+	position: absolute;
+	width: 28%;
+	top: 7em;
+	left: -2%;
+}
+.leftCounter p {
+	pointer-events: none;
+	margin: auto;
+	left: 40%;
+}
+.middleCounter {
+	pointer-events: none;
+	display: inline-block;
+	position: absolute;
+	width: 28%;
+	left: 43%;
+	top: 4em;
+}
+.rightCounter {
+	pointer-events: none;
+	display: inline-block;
+	position: absolute;
+	width: 28%;
+	left: 74.5%;
+	top: 4em;
+}
+
+/*Containers*/
+.goals {
+display: inline-block;
+width: 100%;
+margin: 0 2%;
+}
+.goals div {
+/*float: left;*/
+display: inline;
+margin: 0 1%;
+}
+#auto-goals {
+position: relative;
+/*top: 30%;*/
+}
+#penalties {
+position: relative;
+/*top: 60%;*/
+}

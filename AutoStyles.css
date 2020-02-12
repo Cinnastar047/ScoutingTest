@@ -1,0 +1,15 @@
+#vroom { /*This is the functional input*/
+font-size: 1em;
+height: 1.75em;
+font-family: "Candara", sans-serif;
+background-color: #e6bf00;
+color: white;
+display: inline;
+position: relative;
+border-radius: 0.5em;
+text-align-last: center;
+}
+input.move { /*this is the initiation line input*/
+width: 1em;
+height: 1em;
+}

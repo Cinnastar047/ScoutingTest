@@ -1,0 +1,28 @@
+#cpButtonGroup { /*for the control panel*/
+	width: fit-content;
+	display: inline;
+	position: relative;
+	margin-right: 1em;
+}
+#cpButtonGroup button {
+	display: inline;
+	float: left;
+	margin: 0;
+	background-color: #eee;
+}
+#cpButtonGroup button:hover {
+	background-color: #aba;
+}
+#rotate {
+	border-radius: 2.5em 0 0 2.5em;
+	padding: 1em 0.5em 1em 1.5em;
+}
+#position {
+	border-radius: 0 2.5em 2.5em 0;
+	padding: 1em 1.5em 1em 0.5em;
+}
+
+.defense { /*this is just the defense against checkbox*/
+	margin-left: 2em;
+	top: 0.75em;
+}
