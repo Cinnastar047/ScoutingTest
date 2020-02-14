@@ -47,6 +47,7 @@ label {
 	display: inline;
 	border-radius: 0.5em;
 	text-align-last: center;
+	margin: auto 0.25em auto 0;
 }
 
 #Scouter {
