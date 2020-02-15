@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Local Scouting List Test</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<style>
 		body {
 			color: white;
@@ -11,21 +12,9 @@
 <body bgcolor="#3b8f3e" onLoad="readTextFile()">
 	
 	<script>
-	function readTextFile() {
-    	var fileText;
-		fetch('Scouters.json')
-  			.then(response => {
-    				return response.json()
- 			 })
-  			.then(data => {
-    			// Work with JSON data here
-    			console.log(data)
-  			})
-  			.catch(err => {
-    			// Do something for an error here
-				console.log("It didn't work!")
-  			})
-	}
+	$.getJSON("Scouters.json", function(json) {
+    		console.log(json);
+		});
 	</script>
 </body>
 </html>
