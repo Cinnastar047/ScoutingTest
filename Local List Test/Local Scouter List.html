@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Local Scouting List Test</title>
+	<style>
+		body {
+			color: white;
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body bgcolor="#3b8f3e" onLoad="readTextFile()">
+	<script>
+	function readTextFile() {
+    	fetch('Scouters.txt')
+  		.then(response => response.text())
+  		.then(text => console.log(text))
+	}
+	</script>
+</body>
+</html>
