@@ -13,10 +13,13 @@
 	<script>
 	function readTextFile() {
     	var fileText;
-		fetch('Scouters.txt')
-  		.then(response => response.text())
-  		.then(text => fileText)
-		console.log(fileText);
+		fetch('Scouters.json')
+  			.then((response) => {
+    		return response.json();
+  		})
+		.then((myJson) => {
+    		console.log(myJson);
+  		});
 	}
 	</script>
 </body>
