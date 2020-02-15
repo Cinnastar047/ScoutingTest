@@ -12,10 +12,10 @@
 	
 	<script>
 	function readTextFile() {
-    	fetch('Scouters.txt')
+    	var fileText;
+		fetch('Scouters.txt')
   		.then(response => response.text())
-  		.then(text => console.log(text))
-		var fileText = JSON.parse(fetch('Scouters.txt').responseText);
+  		.then(text => fileText)
 		console.log(fileText);
 	}
 	</script>
