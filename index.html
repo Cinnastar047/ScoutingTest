@@ -10,7 +10,7 @@
 </input>
 <script>
 	function loadTeams() {
-		d3.tsv("WaterburyTeams.tsv").then(function(data) {
+		d3.dsv("\n", "WaterburyTeams.tsv").then(function(data){
   			console.log(data);
 		});
 	}
