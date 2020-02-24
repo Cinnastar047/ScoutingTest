@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Test Pull Team List</title>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body onLoad="loadTeams()">
+<input type="text" list="teamList">
+	<datalist id="teamList">
+	</datalist>
+</input>
+<script>
+	function loadTeams() {
+		d3.tsv("WaterburyTeams.tsv").then(function(data) {
+  			console.log(data);
+		});
+	}
+</script>
+</body>
+</html>
