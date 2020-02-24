@@ -12,6 +12,11 @@
 	function loadTeams() {
 		d3.dsv("\n", "WaterburyTeams.tsv").then(function(data){
   			console.log(data);
+			var options = '';
+
+  			for(var i = 0; i < data.length; i++) options += '<option value="'+data[i]+'" />';
+
+  			document.getElementById('teamList').innerHTML = options;
 		});
 	}
 </script>
