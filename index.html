@@ -11,7 +11,7 @@
 <script>
 	function loadTeams() {
 		d3.dsv("\n", "WaterburyTeams.tsv").then(function(data){
-  			console.log(data[0]);
+  			console.log(data[0].Teams);
 			var options = '';
 
   			for(var i = 0; i < data.length; i++) options += '<option value="'+data[i]+'" />';
